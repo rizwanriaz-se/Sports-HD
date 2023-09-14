@@ -10,6 +10,7 @@ const Channel = () => {
         for (let i in channelInfo) {
             if (`/${url}` === channelInfo[i].url) {
                 console.log(channelInfo[i]);
+                
                 setChannel(channelInfo[i]);
                 break; // Stop searching once a match is found
             }
@@ -37,9 +38,7 @@ const Channel = () => {
                 {channel.name}
             </p>
 
-            <div className="w-11/12 mx-2">
-                {channel.iframe}
-                <iframe id="myIframe" src="//stream.crichd.vip/update/star.php" width="100%" height="500px" marginheight="0" marginwidth="0" frameborder="0" allowfullscreen allow="encrypted-media" sandbox></iframe>
+            <div className="p-6" dangerouslySetInnerHTML={{__html: channel.iframe}}>
             </div>
         </div>
     );
