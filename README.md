@@ -3,7 +3,7 @@
 Sports HD is a live sports streaming website built primarily with ReactJS. The aim of Sports HD is to provide an easy-to-use, fast, and user-friendly interface for sports enthusiasts to watch their favorite matches live.
 Getting Started
 
-You can access the website through this link. To run the website locally, follow the steps below:
+You can access the website through <a href="https://sportshd.netlify.app">this link</a>. To run the website locally, follow the steps below:
 
 1. Clone the repository:
    
