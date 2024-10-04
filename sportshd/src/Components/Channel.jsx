@@ -33,13 +33,14 @@ const Channel = () => {
     }, [channel.iframe]); // Use channel.iframe as a dependency
 
     return (
-        <div>
-            <p className="text-4xl font-bold mt-6 mx-6">
+        <div className="channel-container">
+            <p>
                 {channel.name}
             </p>
-
-            <div className="p-6" dangerouslySetInnerHTML={{__html: channel.iframe}}>
+            
+            <div className="iframe-container" dangerouslySetInnerHTML={{__html: channel.iframe}}>
             </div>
+            
         </div>
     );
 };

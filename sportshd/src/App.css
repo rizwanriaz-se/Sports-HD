@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Channel.jsx */
+p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 0 0.5rem 0 ;
+
+}
+
+.channel-container > div{
+    margin: 0;
+    padding: 0;
+}
+
+.channel-container {
+    margin: 1rem;
+}
+
+
+/* Navbar.jsx */
+.navbar {
+    border-bottom: 1px solid gray;
+    background-color: #000;
+    padding: 0.7rem 0;
+    text-align: center;
+}
+
+.navbar-title {
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    
+}
+
+/* ChannelGrid.jsx */
+/* Container grid styles */
+.grid-container {
+    display: grid;
+    margin: 1rem;
+    grid-template-columns: repeat(1, 1fr); /* Default for small screens */
+    justify-items: center; /* Center items horizontally */
+  }
+  
+  @media (min-width: 640px) {
+    /* sm:grid-cols-2 */
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* md:grid-cols-3 */
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* lg:grid-cols-5 */
+    .grid-container {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  
+  /* Card styles */
+  .card {
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    text-decoration: none; /* To remove underline from Link */
+  }
+  
+  /* Card body styles */
+  .card-body {
+    background-color: white; /* bg-white */
+    border-radius: 0.5rem; /* rounded-lg */
+    margin-bottom: 0; /* mb-0 */
+    padding-bottom: 0.5rem; /* pb-2 */
+  }
+  
+  /* Image styles */
+  .card-body img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Ensures the image covers the container */
+    /* display: flex; */
+    /* align */
+  }
+  
+  /* Card title styles */
+  .card-title {
+    color: black; /* text-black */
+    font-weight: 600; /* font-semibold */
+    text-align: center; /* Center text */
+  }
+  

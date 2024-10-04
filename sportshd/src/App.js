@@ -7,7 +7,6 @@ import Navbar from './Components/Navbar';
 import Channel from './Components/Channel';
 
 
-
 const App = () => {
 
   return (
