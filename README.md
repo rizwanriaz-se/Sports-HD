@@ -7,11 +7,11 @@ You can access the website through <a href="https://sportshd.netlify.app">this l
 
 1. Clone the repository:
    
-    ```git clone https://github.com/iamrizwan077/LiveSports.git```
+    ```git clone https://github.com/rizwanriaz-se/Sports-HD.git```
 
 2. Navigate to the project folder:
 
-    ```cd live_sports```
+    ```cd sportshd```
 
 3. Install the dependencies:
 
@@ -19,7 +19,7 @@ You can access the website through <a href="https://sportshd.netlify.app">this l
 
 4. Start the local server:
 
-    ```npm start```
+    ```npm run start```
 
 <h2>Features</h2>
 <ul>
